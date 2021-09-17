@@ -25,6 +25,7 @@ The following table shows the states of an item that you can consider to identif
 
 
 | **State of an Item**| **XML Child Element**| **Example**|
+| ------------- |:-------------:| -----:|
 |Any state that applies to the item, if no other custom icon has been defined for that state.| **default**| `<default>c:\default.ico</default>`|
 |Icon to identify in the explorer that item has been encrypted.| **encrypted**| `<encrypted>c:\encryptedicon.ico</encrypted>`|
 |Icon to identify in the explorer that item has been forwarded.| **forwarded**| `<forwarded>c:\forwardedicon.ico</forwarded>`|
