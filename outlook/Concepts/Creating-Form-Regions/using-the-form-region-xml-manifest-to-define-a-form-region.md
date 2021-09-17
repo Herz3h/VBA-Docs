@@ -18,6 +18,9 @@ You can specify the functionality, behavior, and other innate properties of a fo
 
 
 | **Schema Elements**| **Purpose**| **Further Information**|
+| ------------- |:-------------:| -----:|
+|Any state that applies to the item, if no other custom icon has been defined for that state.| **default**| `<default>c:\default.ico</default>`|
+|Icon to identify in the explorer that item has been encrypted.| **encrypted**| `<encrypted>c:\encryptedicon.ico</encrypted>`|
 | **name**, **title**, **formRegionName**|Identify a form region internally and in the user interface.| [How-to: Name a Form Region](name-a-form-region.md)|
 | **formRegionType**|Specify a form region to occupy part of a page or an entire page of a form.| [How to: Specify the Location of a Form Region in a Custom Form](specify-the-location-of-a-form-region-in-a-custom-form.md)|
 | **displayAfter**|Order multiple form regions in a custom form.| [How to: Specify the Location of a Form Region in a Custom Form](specify-the-location-of-a-form-region-in-a-custom-form.md)|
